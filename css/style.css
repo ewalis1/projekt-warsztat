@@ -13,4 +13,58 @@
     --color-light-grey: #F7F7F7;
     --font-open: 'Open Sans', sans-serif;
     --font-raleway: 'Raleway', sans-serif;
+    --header-height: 70px;
+}
+
+/* .container {
+    max-width: 1352px;
+    margin: 0 auto;
+    background-color: lightgreen;
+} */
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+.main-header {
+    width: 100%;
+    height: var(--header-height);
+    background-color: lime;
+}
+
+.jumbo {
+    width: 100%;
+    height: calc(100vh - var(--header-height));
+    background-color: mediumaquamarine;
+}
+
+.statistics {
+    width: 100%;
+    height: 531px;
+    background-color: mediumorchid;
+}
+
+.benefits {
+    width: 100%;
+    height: 1395px;
+    background-color: navajowhite;
+}
+
+.pricing {
+    width: 100%;
+    height: 716px;
+    background-color: lightblue;
+}
+
+.contact {
+    width: 100%;
+    height: 590px;
+    background-color: cornflowerblue;
+}
+
+footer {
+    width: 100%;
+    height: 89px;
+    background-color: burlywood;
 }
