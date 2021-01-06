@@ -154,11 +154,33 @@
                 <h2>Any questions?</h2>
                 <p class="comment">Leave your email address or call us!</p>
                 <div class="details">
-                    <p>info@bestshop.xyz</p>
-                    <p>123 456 789</p>
+                    <p class="mail">info@bestshop.xyz</p>
+                    <p class="phone">123 456 789</p>
                 </div>
             </div>
-            <div class="form"></div>
+            <div class="form">
+               <div class="personal-data">
+                <form action="index.html" method="POST">
+                    <div class="name">
+                      <label for="name">Name</label><br>
+                      <input type="text" name="name" id="name"><br>
+                    </div>
+                    <div class="email">
+                      <label for="email">Email</label><br>
+                      <input type="email" name="email" id="email">
+                    </div>
+                </form>
+               </div>
+               <div class="rodo">
+                   <label class="consent">
+                       <input type="checkbox" class="checkbox">
+                       <span class="styled-checkbox"></span>
+                       <p class="consent-text">I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)
+                       </p>
+                   </label>
+               </div>
+               <button class="send">Send</button>
+            </div>
         </section>
     </main>
     <footer>
