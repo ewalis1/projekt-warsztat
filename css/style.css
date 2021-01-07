@@ -128,6 +128,8 @@ li a {
     background-size: cover;
 }
 
+/* Statistics */
+
 .statistics {
     width: 100%;
     height: 531px;
@@ -208,6 +210,8 @@ li a {
     color: var(--color-grey);
     text-align: center;
 }
+
+/* Benefits  */
 
 .benefits {
     width: 100%;
